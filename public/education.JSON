@@ -1,0 +1,67 @@
+[
+    {
+        "title": "Dhaka University",
+        "key": 11,
+        "text": "Education gives us an understanding of the world around us and offers us an opportunity to use that knowledge wisely.",
+        "fee": 10000,
+        "location": "Dhaka, Bangladesh",
+        "img" : "https://eduma.thimpress.com/demo-university-2/wp-content/uploads/sites/23/2015/06/course-7-450x233.jpg"
+    },
+
+    {
+        "title": "Universal College Islamabad",
+        "key": 12,
+        "text": "In that respect, here are some powerful education quotes to help us appreciate the power of learning and gaining knowledge.",
+        "fee": 11000,
+        "location": "Islamabad, Pakistan",
+        "img" : "https://eduma.thimpress.com/demo-university-2/wp-content/uploads/sites/23/2015/06/course-6-450x233.jpg"
+    },
+    {
+        "title": "University of Valencia",
+        "key": 13,
+        "text": "Education is one of the most powerful things in life. It allows us to find the meaning behind everything and helps improve lives in a massive way.",
+        "fee": 12000,
+        "location": "Madrid, Spain",
+        "img" : "https://eduma.thimpress.com/demo-university-2/wp-content/uploads/sites/23/2015/11/event-7-450x233.jpg"
+    },
+    {
+        "title": "PSL Research University",
+        "key": 14,
+        "text": "Upon the subject of education … I can only say that I view it as the most important subject which we as a people may be engaged in",
+        "fee": 13000,
+        "location": "Paris, France",
+        "img" : "https://eduma.thimpress.com/demo-university-2/wp-content/uploads/sites/23/2015/12/event-3-450x233.jpg"
+    },
+    {
+        "title": "University of Delhi",
+        "key": 15,
+        "text": " It is as impossible to withhold education from the receptive mind as it is impossible to force it upon the unreasoning.",
+        "fee": 14000,
+        "location": "New Delhi, India",
+        "img" : "https://eduma.thimpress.com/demo-university-2/wp-content/uploads/sites/23/2015/11/event-2-450x233.jpg"
+    },
+    {
+        "title": "Heidelberg University",
+        "key": 16,
+        "text": " Take the attitude of a student, never be too big to ask questions, never know too much to learn something new. ",
+        "fee": 15000,
+        "location": "Berlin, Germany",
+        "img" : "https://eduma.thimpress.com/demo-university-2/wp-content/uploads/sites/23/2015/11/event-2-450x233.jpg"
+    },
+    {
+        "title": "University of Toronto",
+        "key": 17,
+        "text": "Education is for improving the lives of others and for leaving your community and world better than you found it.",
+        "fee": 16000,
+        "location": "Toronto, Canada",
+        "img" : "https://eduma.thimpress.com/demo-university-2/wp-content/uploads/sites/23/2015/06/course-7-450x233.jpg"
+    },
+    {
+        "title": "Adelphi University",
+        "key": 18,
+        "text": "Education is the best friend. An educated person is respected everywhere. Education beats the beauty and the youth",
+        "fee": 17000,
+        "location": "NewYork, USA",
+        "img" : "https://eduma.thimpress.com/demo-university-2/wp-content/uploads/sites/23/2015/11/event-4-450x233.jpg"
+    }
+]

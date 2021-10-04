@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import Service from '../Service/Service';
-import './Home.css';
+import './Services.css';
 
-const Home = () => {
+const Services = () => {
     const [services, setServices] = useState([]); 
     useEffect(() => {
         fetch('./education.JSON')
         .then(res => res.json())
-        .then(data => setServices(data.slice(0,4)));
+        .then(data => setServices(data));
     },[])
     return (
         <div>
@@ -15,14 +15,15 @@ const Home = () => {
                 <img src="https://eduma.thimpress.com/demo-university-2/wp-content/themes/eduma/images/bg-page.jpg" height="300px" width="100%" alt=""/>
             </div>
             <div className="bg-text">
-            <h2>Home</h2>
+                 <h2>Service</h2>
             </div>
+
             {
                 services.map(service => <Service key={service.key} service={service}></Service>)
             }
+
         </div>
     );
 };
 
-export default Home;
-
+export default Services;

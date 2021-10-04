@@ -1,0 +1,13 @@
+.margin-nav{
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.margin-nav:hover{
+    background-color: #ffe600;
+    color: black;
+    
+}
