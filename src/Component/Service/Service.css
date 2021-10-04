@@ -6,7 +6,9 @@
 
 .service-card img{
     width: 280px;
+    height: 233px;
     margin-left: 60px;
+    border-radius: 20px;
 }
 .service-card span{
     color: #ffe600;
