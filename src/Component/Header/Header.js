@@ -1,23 +1,30 @@
 import React from 'react';
-import {  Container, Nav, Navbar } from 'react-bootstrap';
+import {  Container } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+    
     return (
-        <div>
-            <Navbar bg="dark" variant="dark">
+        <div  className="header-part">
                 <Container>
-                    <Nav className="me-auto mx-auto">
-                        <NavLink className="margin-nav" to="/home">Home</NavLink>
-                        <NavLink className="margin-nav" to="/about">About Us</NavLink>
-                        <NavLink className="margin-nav" to="/services">Services</NavLink>
-                        <NavLink className="margin-nav" to="/contact">Contact Us</NavLink>
-                    </Nav>
+            <div className="">
+                    <div className="header-nav text-center">
+                        <NavLink
+                         activeStyle={{fontWeight: "bold", color: "#ffe600"}} 
+                         className="margin-nav" to="/home">Home</NavLink>
+                        <NavLink activeStyle={{fontWeight: "bold", color: "#ffe600"}} className="margin-nav" to="/about">About Us</NavLink>
+                        <NavLink activeStyle={{fontWeight: "bold", color: "#ffe600"}} className="margin-nav" to="/services">Services</NavLink>
+                        <NavLink activeStyle={{fontWeight: "bold", color: "#ffe600"}} className="margin-nav" to="/contact">Contact Us</NavLink>
+                    </div>
+                   
+            </div>
                 </Container>
-            </Navbar>
+            
         </div>
     );
 };
 
 export default Header;
+
+

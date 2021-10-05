@@ -19,7 +19,7 @@ const NotFound = () => {
 
                         <div className="error-text">
                             <h1>404 <span>ERROR!</span></h1>
-                            <p>Sorry, we can't find the page you are looking for. Please go to <NavLink className="error-link" to="/home">Home</NavLink>.</p>
+                            <p>Sorry, we can't find the page you are looking for. Please go to <NavLink className="error-link" to="/home">Home</NavLink></p>
                         </div>
 
                     </div>
