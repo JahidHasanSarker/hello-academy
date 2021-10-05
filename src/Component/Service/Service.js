@@ -1,6 +1,8 @@
-import { faLocationArrow, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
+import { faLocationArrow, faMoneyBill, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = (props) => {
@@ -15,7 +17,8 @@ const {title, text, img, key, fee, location} = props.service;
                         <p><FontAwesomeIcon icon={faMoneyBill} />  ${fee} </p>
                         <p><FontAwesomeIcon icon={faLocationArrow} /> {location}</p>
                     </div>
-                    <p className='text-muted'>{text}</p>
+                    <p className='text-muted mb-5'>{text}</p>
+                    <Link to="/contact"><Button variant="outline-warning"><FontAwesomeIcon icon={faPhone} className="me-2" />Contact</Button></Link>
                 </div>
                 <img src={img} alt="" />
             </div>
