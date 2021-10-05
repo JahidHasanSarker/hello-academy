@@ -4,18 +4,22 @@ import { NavLink } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
+
+    const activeStyle = {fontWeight: "bold", color: "#ffe600"};
     
     return (
         <div  className="header-part">
                 <Container>
-            <div className="">
+            <div>
                     <div className="header-nav text-center">
-                        <NavLink
-                         activeStyle={{fontWeight: "bold", color: "#ffe600"}} 
-                         className="margin-nav" to="/home">Home</NavLink>
-                        <NavLink activeStyle={{fontWeight: "bold", color: "#ffe600"}} className="margin-nav" to="/about">About Us</NavLink>
-                        <NavLink activeStyle={{fontWeight: "bold", color: "#ffe600"}} className="margin-nav" to="/services">Services</NavLink>
-                        <NavLink activeStyle={{fontWeight: "bold", color: "#ffe600"}} className="margin-nav" to="/contact">Contact Us</NavLink>
+                        <NavLink activeStyle={activeStyle} 
+                            className="margin-nav" to="/home">Home</NavLink>
+                        <NavLink activeStyle={activeStyle}
+                            className="margin-nav" to="/about">About Us</NavLink>
+                        <NavLink activeStyle={activeStyle}
+                            className="margin-nav" to="/services">Services</NavLink>
+                        <NavLink activeStyle={activeStyle}
+                            className="margin-nav" to="/contact">Contact Us</NavLink>
                     </div>
                    
             </div>
